@@ -1,0 +1,25 @@
+html{
+    color-scheme: light;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: #373445;
+    background: #062207 url("dish-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+main {
+    width: min(70ch, 100% - 4rem);
+    margin-inline: auto;
+    padding: 40px;
+    background-color: #fff;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: #101d14;
+    background: #062207 url("forest.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+main {
+    width: min(70ch, 100% - 4rem);
+    margin-inline: auto;
+    padding: 40px;
+    background-color: #ddf1de;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}
